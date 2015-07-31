@@ -2,7 +2,7 @@
   "kord/prod": {
     "user": "kord",
 	"app": "ethereum",
-	"domain": "kord-ethereum.gigantic.io",
+	"domain": "kord-ethereum.gigantic.io"
   }
 }
 

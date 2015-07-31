@@ -10,9 +10,6 @@
           "ports": [30303],
           "domains": {
             "$domain": 30303
-          },
-          "scaling_policy": {
-            "min": 1
           }
         }
       ]
