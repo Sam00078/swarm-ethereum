@@ -1,0 +1,23 @@
+{
+  "app_name": "$app",
+  "services": [
+    {
+      "service_name": "go",
+      "components": [
+        {
+          "component_name": "geth",
+          "image": "registry.giantswarm.io/$org/$app",
+          "ports": [30303],
+          "domains": {
+            "$domain": 30303
+          },
+          "env": {
+          },
+          "scaling_policy": {
+            "min": 1
+          }
+        }
+      ]
+    }
+  ]
+}
