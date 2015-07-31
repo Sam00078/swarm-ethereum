@@ -8,6 +8,17 @@ make up
 swarm status ethereum
 ```
 
+#### Example with Output
+```
+$ make up
+# lots of stuff happens 
+$ swarm status ethereum
+App ethereum is up
+
+service  component  image                                        instanceid    created              status
+go       geth       registry.giantswarm.io/kord/ethereum:latest  wvyt4oc7z6ku  2015-07-31 05:57:47  up
+```
+
 Grab the instance ID from the output of that and do a:
 
 ```
