@@ -1,9 +1,13 @@
 # Swarm Ethereum
 This is the Ethereum Go Client in a container running on Giant Swarm.
 
-You need a Giant Swarm account: https://giantswarm.io/. If you don't have one, it's in private alpha right now, so you need to ask [@kordless](https://twitter.com/kordless) for an invite.
+If you just want to run it locally, do a:
 
-More info coming soon, but the basic use is:
+```
+make run
+```
+
+If you want to have this hosted for you, you'll need a Giant Swarm account: https://giantswarm.io/. If you don't have one, it's in private alpha right now, so you need to ask [@kordless](https://twitter.com/kordless) for an invite.
 
 ```
 make up
