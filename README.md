@@ -1,5 +1,5 @@
 # Swarm Ethereum
-This is the Ethereum Go Client in a container running on Giant Swarm.
+This is the Ethereum Go Client in a container running on Giant Swarm. This project will be expanded soon.
 
 If you just want to run it locally, do a:
 
